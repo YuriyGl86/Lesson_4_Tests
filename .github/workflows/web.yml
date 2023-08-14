@@ -1,4 +1,4 @@
-name: GOBLIN
+name: CARD-WIDGET
 
 on: [push, pull_request]
 
@@ -34,6 +34,9 @@ jobs:
 
       - name: Run linters
         run: npm run lint
+
+      - name: Run tests
+        run: npm test  
 
 
       - name: Build
