@@ -1,4 +1,10 @@
 import master from '../img/Mastercard_icon-icons.com_60554.png';
+import mir from '../img/mir-logo_norm.png';
+import visa from '../img/visa-curved.png';
+import americanexpress from '../img/americanexpress.png';
+import dinersclub from '../img/dinersclub.png';
+import discover from '../img/discover.png';
+import JCB from '../img/JCB.png';
 import paySystemRecognizer from './paySystemRecognizer';
 import validateCardNumber from './validator';
 
@@ -18,13 +24,13 @@ export default class CardWidget {
     return `
         <div class="card-widget">
             <div class="icons-container">
-                <img src="${master}" alt="ff" class="mir gray">
-                <img src="${master}" alt="ff" class="visa gray">
+                <img src="${mir}" alt="ff" class="mir gray">
+                <img src="${visa}" alt="ff" class="visa gray">
                 <img src="${master}" alt="ff" class="mastercard gray">
-                <img src="${master}" alt="ff" class="americanexpress gray">
-                <img src="${master}" alt="ff" class="dinersclub gray">
-                <img src="${master}" alt="ff" class="discover gray">
-                <img src="${master}" alt="ff" class="jcb gray">
+                <img src="${americanexpress}" alt="ff" class="americanexpress gray">
+                <img src="${dinersclub}" alt="ff" class="dinersclub gray">
+                <img src="${discover}" alt="ff" class="discover gray">
+                <img src="${JCB}" alt="ff" class="jcb gray">
             </div>
             <div class="form-container">
                 <form class="widget-form">
