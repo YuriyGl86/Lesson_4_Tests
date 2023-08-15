@@ -6,7 +6,7 @@ describe('pay system widget Form', () => {
 
   beforeEach(async () => {
     browser = await puppeteer.launch({
-      headless: "new",
+      headless: 'new',
       slowMo: 100,
       devtools: true,
     });
